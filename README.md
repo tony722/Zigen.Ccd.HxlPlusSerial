@@ -6,6 +6,9 @@
 Audio/Video Switcher Module for Crestron Home OS  
 Connection: RS232 Serial
 
+### This serial driver only supports the following function:
+* Input/output switching
+
 ## Installation
 Copy the .pkg file to /user/ThirdPartyDrivers/Import  
 on the processor using an FTP client or Crestron Toolbox
