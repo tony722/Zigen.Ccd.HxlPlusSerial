@@ -33,7 +33,3 @@ In addition to the hardware support provided by the manufacturer, I'm happy to o
 
 ## Source
 Full source is available here on GitHub to allow you to make any desired modifications. _If you feel your modification would be of general interest, please clone this repository and issue a pull request. Thanks!_
-
-Referenced libraries:
-* [Unity.RestClient](https://github.com/tony722/Unity.RestClient) 
-* [Unity.SimplSharp](https://github.com/tony722/Unity.SimplSharp)
