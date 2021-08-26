@@ -1,0 +1,452 @@
+﻿{
+  "CrestronSerialDeviceApi": {
+    "DeviceSupport": {
+      "SupportsFeedback": false,
+      "SupportsDiscretePower": true,
+      "SupportsTogglePower": false,
+      "SupportsPowerFeedback": false,
+      "SupportsTemperatureFeedback": false,
+      "SupportsWarmUpTime": false,
+      "SupportsCoolDownTime": false,
+      "SupportsDisconnect": false,
+      "SupportsReconnect": false
+    },
+    "GeneralInformation": {
+      "DeviceType": "AV Switcher",
+      "Manufacturer": "Zigen",
+      "BaseModel": "HXL-88Plus",
+      "VersionDate": "2021-08-26 15:25:00.000",
+      "DriverVersion": "6.0000.0012",
+      "SdkVersion": "2.9.100",
+      "Description": "Zigen HXL-Plus Series",
+      "Guid": "DEDB0979-2C7D-4263-8AA7-39417EF9FA6B",
+      "SupportedSeries": ["HXL-Plus"],
+
+      "SupportedModels": ["HXL-88Plus", "HXL-44Plus"]
+
+    },
+    "Api": {
+      "Communication": {
+        "CommunicationType": 0,
+        "Protocol": 0,
+        "Baud": 65536,
+        "Parity": 0,
+        "HwHandshake": 0,
+        "SwHandshake": 0,
+        "DataBits": 8,
+        "StopBits": 1,
+        "Port": 0,
+        "EnableAutoPolling": false,
+        "EnableAutoReconnect": true,
+        "TimeBetweenCommands": 250,
+
+        "ResponseTimeout": 1000,
+        "WaitForResponse": false,
+        "IpProtocol": -1,
+        "IsUserAdjustable": false,
+        "Authentication": {
+          "Type": "None",
+          "Required": false
+        },
+        "IsSecure": false,
+        "UserAdjustableProperties": [],
+        "DeviceId": 0
+      },
+      "StandardCommands": {
+
+        "AudioVideoSwitcherRoute": {
+          "Command": "switch video {output} {input}"
+
+        }
+      },
+
+      "AudioVideoSwitcher": {
+        "AutoDetectConfiguration": false,
+        "SupportsAudioBreakaway": true,
+        "NullInputIdentifier": "0",
+
+        "RoutableOutputs": [{
+
+            "Id": "output1",
+            "ApiIdentifier": "1",
+            "Name": "Output 1",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi1",
+                "description": "Output 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 1"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi1",
+                "description": "Output 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 1"
+              }
+            ]
+          }, {
+            "Id": "output2",
+            "ApiIdentifier": "2",
+            "Name": "Output 2",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi2",
+                "description": "Output 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 2"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi2",
+                "description": "Output 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 2"
+              }
+            ]
+          }, {
+            "Id": "output3",
+            "ApiIdentifier": "3",
+            "Name": "Output 3",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi3",
+                "description": "Output 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 3"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi3",
+                "description": "Output 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 3"
+              }
+            ]
+          }, {
+            "Id": "output4",
+            "ApiIdentifier": "4",
+            "Name": "Output 4",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi4",
+                "description": "Output 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 4"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi4",
+                "description": "Output 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 4"
+              }
+            ]
+          }, {
+            "Id": "output5",
+            "ApiIdentifier": "5",
+            "Name": "Output 5",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi5",
+                "description": "Output 5 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 5"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi5",
+                "description": "Output 5 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 5"
+              }
+            ]
+          }, {
+            "Id": "output6",
+            "ApiIdentifier": "6",
+            "Name": "Output 6",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi6",
+                "description": "Output 6 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 6"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi6",
+                "description": "Output 6 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 6"
+              }
+            ]
+          }, {
+            "Id": "output7",
+            "ApiIdentifier": "7",
+            "Name": "Output 7",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi7",
+                "description": "Output 7 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 7"
+              }
+            ],
+            "VideoOutputDetails": [{
+                "type": "Hdmi7",
+                "description": "Output 7 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 7"
+              }
+            ]
+          }, {
+            "Id": "output8",
+            "ApiIdentifier": "8",
+            "Name": "Output 8",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Output",
+            "Type": "DirectOutput",
+
+            "AudioOutputDetails": [{
+
+                "type": "Hdmi8",
+                "description": "Output 8 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 8"
+              }
+            ],
+
+            "VideoOutputDetails": [{
+
+                "type": "Hdmi8",
+                "description": "Output 8 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Output 8"
+              }
+            ]
+          }
+
+        ],
+        "RoutableInputs": [{
+
+            "ApiIdentifier": "1",
+            "Id": "input1",
+            "Name": "Input 1",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi1",
+                "description": "Input 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 1"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi1",
+                "description": "Input 1 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 1"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "2",
+            "Id": "input2",
+            "Name": "Input 2",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi2",
+                "description": "Input 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 2"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi2",
+                "description": "Input 2 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 2"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "3",
+            "Id": "input3",
+            "Name": "Input 3",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi3",
+                "description": "Input 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 3"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi3",
+                "description": "Input 3 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 3"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "4",
+            "Id": "input4",
+            "Name": "Input 4",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi4",
+                "description": "Input 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 4"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi4",
+                "description": "Input 4 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 4"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "5",
+            "Id": "input5",
+            "Name": "Input 5",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi5",
+                "description": "Input 5 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 5"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi5",
+                "description": "Input 5 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 5"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "6",
+            "Id": "input6",
+            "Name": "Input 6",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi6",
+                "description": "Input 6 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 6"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi6",
+                "description": "Input 6 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 6"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "7",
+            "Id": "input7",
+            "Name": "Input 7",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi7",
+                "description": "Input 7 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 7"
+              }
+            ],
+            "VideoInputDetails": [{
+                "type": "Hdmi7",
+                "description": "Input 7 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 7"
+              }
+            ]
+          }, {
+
+            "ApiIdentifier": "8",
+            "Id": "input8",
+            "Name": "Input 8",
+            "Manufacturer": "Zigen",
+            "Model": "HDMI Input",
+            "Type": "DirectInput",
+            "AudioInputDetails": [{
+
+                "type": "Hdmi8",
+                "description": "Input 8 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 8"
+              }
+            ],
+
+            "VideoInputDetails": [{
+
+                "type": "Hdmi8",
+                "description": "Input 8 HDMI",
+                "connector": "Hdmi",
+                "friendlyName": "Input 8"
+              }
+            ]
+
+          }
+        ]
+      }
+    },
+    "UserAttributes": []
+
+  }
+}
